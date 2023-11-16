@@ -1,0 +1,159 @@
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .form {
+    display:'flex';
+    justify-content: center;
+    align-items: center;
+    width: 300px;    
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    
+  }
+  
+  .form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form label,
+  .form input,
+  .form button {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .form input {
+    width: 94%;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+  }
+  
+  .form button {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .form button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* ProductsPage.css */
+
+.product-list {
+  list-style: none;
+  padding: 0;
+}
+
+.product-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+}
+
+.product-info {
+  display: flex;
+  flex-direction: 'row';
+  align-items: center;
+}
+
+.product-image {
+  width: 80px;
+  height: 70px;
+  margin-right: 10px;
+}
+
+.product-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.product-name {
+  font-weight: bold;
+}
+
+.remove-button {
+  background-color: #f44336;
+  color: white;
+  border: 1px solid gray ;
+  padding: 6px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  margin-left: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+
+}
+
+.done-button {
+  margin-top: 20px;
+  background-color: Blue;
+  border: 1px solid gray ;
+  color: white;
+  padding: 8px 16px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.cart-container-out{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cart-container-inner{
+ max-width: 80%;
+ min-width: 50%;
+}
+.header {
+  background-color:lightgray;
+  padding: 10px;
+  width: 100vh;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.user-avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.user-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.user-details h1,
+.user-details p {
+  margin: 5px 0;
+}
+
+.user-details p:last-child {
+  margin-bottom: 0;
+}
